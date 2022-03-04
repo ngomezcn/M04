@@ -1,0 +1,74 @@
+.top {
+    clear: both;
+    margin-left: 5em;
+}
+
+.top h1 {
+    font-size: 2em;
+}
+.top p {
+    margin-top: -1em;
+    padding-right: 5em;
+}
+
+.product-list {
+    margin-top: -1em;
+}
+
+.product-list h4 {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.product-list h4:hover {
+    color: #7ABA96;
+}
+
+.char {
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 0;
+    margin-top: -0.7em;
+}
+
+.char .sub {
+    font-weight: 600; 
+    padding-right: 0.3em;
+}
+
+.char  ol {
+    padding-right: 2em;
+}
+
+.product img {
+    height: 6em;
+    padding-right: 1em;
+}
+
+.product img:hover {
+    transform: rotate(2deg);
+}
+
+.product {
+    float: left;
+}
+
+.info {
+    float: right;
+    margin-top: -1em;
+}
+
+.author {
+    clear: both;
+    margin-top: 1em;
+}
+
+.separator {
+    clear: both;
+    border-top: 3px solid;
+    height: 100%;
+    margin-right: 4em;
+    margin-left: 2.48em;
+}
+

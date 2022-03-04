@@ -1,0 +1,59 @@
+
+
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.grid section {
+    padding: 1.5em;
+}
+
+.grid section {
+    width: 20em;
+    height: auto;
+    text-align: center;
+}
+.grid section img {
+    width: 100%;
+}
+.grid section p {
+    text-align: justify;
+}
+
+.grid section a {
+    color: black;
+    text-decoration: none;
+}
+
+.grid section a:hover {
+    color: #9D9485;
+}
+
+.grid .date {
+    margin-top: 2.5em;
+    border: 1px #7ABA96;
+    border-style: solid none;
+
+}
+
+.grid .date {
+    margin-top: 2.5em;
+    border: 1px #7ABA96;
+    border-style: solid none;
+
+}
+
+.grid section h4 {
+    width: auto;
+    height: 1em;
+}
+
+
+
+
+
+

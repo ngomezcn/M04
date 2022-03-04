@@ -21,9 +21,7 @@
 							<th><xsl:value-of select="apellidos"></xsl:value-of></th>
 							<th><xsl:value-of select="telefono"></xsl:value-of></th>
 							<th><xsl:value-of select="@repite"></xsl:value-of></th>
-							
 							<xsl:apply-templates select="notas"/>
-							
 						</tr>
 					</xsl:for-each>
 					
@@ -47,7 +45,7 @@
 		</xsl:choose>
 		
 		<xsl:choose>
-			<xsl:when test="examen &gt;=8" >
+			<xsl:when test="examen &gt;=8">
 				<th style="background: lightblue;"><xsl:value-of select="examen"></xsl:value-of></th>
 			</xsl:when>
 			<xsl:when test="examen &lt; 5">
@@ -60,7 +58,7 @@
 		</xsl:choose>
 		
 		<xsl:choose>
-			<xsl:when test="(examen + practicas) div 2 &gt;=8" >
+			<xsl:when test="(examen + practicas) div 2 &gt;=8">
 				<th style="background: lightblue;"><xsl:value-of select="(examen + practicas) div 2"></xsl:value-of></th>
 			</xsl:when>
 			<xsl:when test="(examen + practicas) div 2 &lt; 5">
@@ -71,6 +69,6 @@
 				<th><xsl:value-of select="(examen + practicas) div 2"></xsl:value-of></th>
 			</xsl:otherwise>
 		</xsl:choose>
-
+		
 	</xsl:template>
 </xsl:stylesheet>

@@ -1,0 +1,44 @@
+.carta {
+    width: 100%;
+}
+
+tr {
+    border: 2px;
+
+}
+
+.align-p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.field {
+    margin-right: 0.7em;
+    font-weight: bold;
+}
+
+th,td {
+     
+    text-align: left;
+}
+
+.red-table {
+    border-width: 3px;
+    border-style: solid;
+     border-color: red;
+    display: flex;
+    margin-bottom: 0.4em;
+}
+
+.black-table {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    margin-bottom: 0.4em;
+}
+
+.titulo {
+    text-transform: uppercase;
+    background-color:lightgray;
+}

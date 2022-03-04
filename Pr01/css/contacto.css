@@ -1,0 +1,54 @@
+
+.form-title h3 {
+    font-size: 1.5em;
+}
+
+.form-title h4 {
+    padding-top: -1em;
+    margin-top: -1em;
+}
+
+.container {
+    
+    float: left;
+    position: relative;
+    left: 50%;
+    padding-bottom: 7em;
+    padding-top: 2em;
+
+}
+
+form.comentario {
+    float: left;
+    position: relative;
+    left: -50%;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    padding-right: 2.3em;
+    padding-left: 1.3em;
+    padding-bottom: 1.3em;
+}
+
+form.comentario:hover {
+    box-shadow: inset 0 2px 5px #7ABA96;;
+}
+
+
+
+form.comentario input {
+    margin-bottom: 0.5em;
+}
+
+input.comentario {
+    height: 100px;
+}
+
+input {
+    width: 100%;
+    padding: 0.4em;
+}
+
+.btn-form {
+
+    width: 105%;
+}
+

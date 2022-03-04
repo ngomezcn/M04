@@ -1,0 +1,35 @@
+aside {
+    float:left;
+    width: 17em;
+    height: auto;
+    text-align: center; 
+    margin-left: 3.5em;
+
+}
+
+aside .about-me p {
+    color: gray;
+    text-align: justify;
+}
+
+aside .book {
+    background-color: #EEEEEE;
+}
+aside .book h4{
+    padding-top:1em;
+}
+aside .book p{
+    color: gray;
+}
+
+aside .book a{
+    background-color: #7ABA96;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 0.85em;
+    display: inline-block;
+    width: 100%;
+}

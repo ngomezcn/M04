@@ -1,0 +1,10 @@
+En general me ha gustado la practica y me ha parecido adecuada, me ha gustado aprender que las webs esencialmente están formadas a partir de rectángulos posicionados en X lugares y que posteriormente se añade todo lo demás, este ejercicio me ha parecido interesante y he investigado por mi cuenta sobre como se desarrollan las webs en entornos más profesionales por ejemplo y he descubierto tecnologías como react, angular, bootstrap y sass.
+
+Estos son los puntos que destacaría:
+1. Incluir más datos sobre la imagen de muestra, fuente, tamaño de letra, dimensiones de imágenes... esto me gustaría, ya que podría notar el avance y motivarme más, me refiero a que mientras hago la página y la voy comparando desmotiva estar todo el rato subiendo o bajando 1px el tamaño de la letra para que encaje con la muestra o por ejemplo tener que probar diversas fuentes hasta que alguna se acerca lo máximo posible, pero nunca llegue a ser igual.
+
+2. Tener que listar 15 recetas ha sido la única parte del ejercicio que estaba deseando finalizar debido a que es muy repetitivo, creo que con 5 recetas ya es suficiente.
+
+3. Me ha gustado que no sea restrictivo en cuanto a los elementos css que podemos usar, opino que se debe mantener así.
+
+Enlace: https://naimgomez7e5.github.io/delicias-kitchen/index.html

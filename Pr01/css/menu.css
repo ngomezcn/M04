@@ -1,0 +1,49 @@
+.top-menu {
+
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+
+}
+body {
+    padding-top: 10em;
+}
+
+.main-logo {
+    width: 19em;
+    height: auto;
+    padding-top: 0.5em;
+    padding-left: 5em;
+}
+
+menu {
+    border: 1px #8A8070;
+    border-style: solid none;
+    margin-right: 1em;
+}
+
+menu ul { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+menu ul li a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+menu ul li a:hover {
+    color: #7ABA96;
+}
+

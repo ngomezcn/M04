@@ -1,0 +1,25 @@
+
+footer {
+    background-color: black;
+    clear: both;
+    margin-left: -0.53em;
+    margin-right: -0.53em;
+}
+
+footer ul { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+footer ul li a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: 0.85em;
+}
