@@ -59,7 +59,7 @@
         <tr>
             <td>
                 <p class='align-p field'>Nombre</p>
-                <p class='align-p'><xsl:value-of select='nombre'/> </p>
+                <p class='align-p'><xsl:value-of select='nombre'/></p>
             </td>
         </tr>
         <tr>
