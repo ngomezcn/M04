@@ -31,18 +31,15 @@ function inputArray(size) {
 }
 
 function checkArrayMatchValues(arr1, arr2, length) {
-    let result = ['-', '-', '-', '-', '-']
+    let result = Array(end - start + 1).fill().map((_, idx) => start + idx)
     for (let i = 0; i < length; i++) {
 
         let counter = 0;
         for (let j = 0; j < length; j++) {
             if (arr1[i] == arr2[j] && i == j) {
-
-                if (i == j) {
-                    result[i] = 'OK';
-                    counter = 0;
-                    break;
-                }
+                result[i] = 'OK';
+                counter = 0;
+                break;
             }
             if (arr1[i] == arr2[j]) {
                 counter++;
