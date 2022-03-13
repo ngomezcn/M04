@@ -1,4 +1,3 @@
-
 function generateRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -8,18 +7,10 @@ function generateSecretCode(size) {
     for (let index = 0; index < size; index++) {
         array.push(generateRandomInt(1, 10));
     }
-    return [1, 1, 1, 4, 5]
+    //return [1, 1, 1, 4, 5]
     return array;
 }
 
-function isNumInPosition(array, pos, num) {
-
-    if (array[pos - 1] == num) {
-        return true;
-    } else {
-        return false;
-    }
-}
 
 function inputArray(size) {
     let array = []
@@ -30,36 +21,43 @@ function inputArray(size) {
     return array;
 }
 
+function generateArrayOfSameChar(length, char) { 
+    let arr = []
+    for (let i = 0; i < length; i++) arr.push(char);
+    return arr
+}
+
 function checkArrayMatchValues(arr1, arr2, length) {
-    let result = Array(end - start + 1).fill().map((_, idx) => start + idx)
+    let result = generateArrayOfSameChar(length, '-')
     for (let i = 0; i < length; i++) {
 
-        let counter = 0;
+        let counter_match_times = 0;
         for (let j = 0; j < length; j++) {
             if (arr1[i] == arr2[j] && i == j) {
                 result[i] = 'OK';
-                counter = 0;
+                counter_match_times = 0;
                 break;
             }
             if (arr1[i] == arr2[j]) {
-                counter++;
+                counter_match_times++;
             }
         }
-        if (counter >= 1) {
-            result[i] = counter;
+        if (counter_match_times >= 1) {
+            result[i] = counter_match_times;
         }
     }
     return result;
 }
 
 function main() {
-    arr_size = 5
-    const secret_code = generateSecretCode(arr_size)
-    console.log('secret code:', secret_code);
+    let secret_code_size = 5
 
-    //const user_arr = inputArray(arr_size)
-    const user_arr = ['1', '1', '1', '4', '5']
-    const result = checkArrayMatchValues(user_arr, secret_code, arr_size)
+    const secret_code = generateSecretCode(secret_code_size)
+    //const user_arr = ['1', '1', '1', '4', '5']1
+    const user_arr = inputArray(secret_code_size)
+    const result = checkArrayMatchValues(user_arr, secret_code, secret_code_size)
+    
+    console.log('secret code:', secret_code);
     console.log('user arr', user_arr)
     console.log('result', result)
 }
