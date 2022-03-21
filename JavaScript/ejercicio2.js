@@ -2,6 +2,9 @@ function generateRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+
+
+
 function generateSecretCode(size) {
     let array = []
     for (let index = 0; index < size; index++) {
