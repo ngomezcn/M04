@@ -1,1 +1,1 @@
-getValue
+.toPrecision(3)

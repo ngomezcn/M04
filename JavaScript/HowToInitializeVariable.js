@@ -1,5 +1,5 @@
 
-function getValue(val) {
+function initVar(val) {
     var x = 0;
     do {
         x = Math.floor(Math.random() * 199999999)
@@ -7,5 +7,5 @@ function getValue(val) {
     return x
 }
 
-var x = getValue(10);
+var x = initVar(10);
 console.log(x)
