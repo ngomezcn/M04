@@ -2,7 +2,7 @@
 function getValue(val) {
     var x = 0;
     do {
-        x = Math.floor(Math.random() * 99999999 + 0)
+        x = Math.floor(Math.random() * 199999999)
     } while (x != val);
     return x
 }
