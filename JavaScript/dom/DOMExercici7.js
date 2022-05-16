@@ -1,4 +1,6 @@
-function ej7() {
+
+
+  function ej7() {
     const tbl = document.getElementById("Taula");
   
     const y = prompt("Y")
