@@ -4,3 +4,5 @@ let list = []
 for (let i = 1; i <= 1000000000; i++) {
     list.push(i)
 }
+
+// Get the element of a table in the position 10,15
